@@ -1,0 +1,37 @@
+
+
+
+
+
+
+
+
+
+
+
+<ion-content class = "ion-padding ion-text-center">
+
+
+  <div class ="logo">
+    <img src = 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/bc2a2cbe-29f7-464d-8396-131bdd4ccd3f/d7xn4e7-531cd7bf-e2e4-40f2-88e7-ba524acd0803.png'>
+  </div>
+
+  <div class="form" >
+<ion-item lines ='none' >
+  <ion-input [(ngModel)]='email' placeholder='Enter email'>
+  </ion-input>
+</ion-item>
+
+
+<ion-item lines ='none'>
+  <ion-input [(ngModel)]='password' placeholder='Password' type='password'>
+  </ion-input>
+</ion-item>
+
+<ion-button color='light' expand = 'block'>Login</ion-button>
+</div>
+<ion-button fill='clear' color='dark'>New? Signup here</ion-button>
+
+<h6>{{email}}</h6>
+<h6>{{password}}</h6>
+</ion-content>
